@@ -10,7 +10,7 @@ function Update () {
 		Space.Self
 		);
 
-	if(Input.GetMouseButtonDown(0) && fire_flg == 0){
+	if(Input.GetMouseButtonDown(0)&& fire_flg == 0){
 		Fire();
 		fire_flg = 1;
 		InvokeRepeating("Activ_bullet",0f,1f);
